@@ -20,18 +20,9 @@ import {
   Star,
 } from "lucide-react";
 
-import Head from "next/head";
-
 export default function LandingPage() {
   return (
     <>
-      <Head>
-        <title>Lab Trak Pro - Modern LIMS for Local Labs</title>
-        <meta
-          name="description"
-          content="Streamline your diagnostic lab operations with Lab Trak Pro, the modern LIMS software designed for Philippine labs."
-        />
-      </Head>
       <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white animate-fade-in scroll-smooth">
         {/* Header */}
         <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
