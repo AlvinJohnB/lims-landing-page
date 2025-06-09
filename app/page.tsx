@@ -360,11 +360,11 @@ export default function LandingPage() {
                         <div>
                           <span className="font-medium">6 Months</span>
                           <Badge variant="secondary" className="ml-2">
-                            ~14% off
+                            ~8% off
                           </Badge>
                         </div>
                         <span className="text-xl font-bold text-blue-600">
-                          ₱14,400
+                          ₱15,500
                         </span>
                       </div>
 
