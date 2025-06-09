@@ -572,7 +572,7 @@ export default function LandingPage() {
                   </div>
                   <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
                     <Mail className="h-5 w-5 text-blue-600" />
-                    <span className="font-medium">info@yourlims.com</span>
+                    <span className="font-medium">alvinbregana@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
                     <MapPin className="h-5 w-5 text-blue-600" />
