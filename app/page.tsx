@@ -54,9 +54,7 @@ export default function LandingPage() {
                 Contact
               </a>
             </nav>
-            <Button className="bg-blue-600 hover:bg-blue-700">
-              Request Demo
-            </Button>
+            <Button className="bg-blue-600 hover:bg-blue-700">View Demo</Button>
           </div>
         </header>
 
@@ -185,10 +183,17 @@ export default function LandingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
+                asChild
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-100 text-lg px-8 py-3 shadow-lg transition-transform duration-200 hover:scale-105"
               >
-                Request a Demo
+                <a
+                  href="https://mern-stack-lis.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Demo
+                </a>
               </Button>
               <Button
                 size="lg"
@@ -370,16 +375,16 @@ export default function LandingPage() {
 
                       <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border-2 border-blue-200">
                         <div className="flex items-center">
-                          <span className="font-medium">Yearly</span>
+                          <span className="font-medium">2 Years</span>
                           <Badge className="ml-2 bg-green-100 text-green-800">
-                            ~11% off
+                            ~40% off
                           </Badge>
                           <Badge className="ml-2 bg-blue-600 text-white">
                             Most Popular
                           </Badge>
                         </div>
                         <span className="text-xl font-bold text-blue-600">
-                          ₱30,000
+                          ₱40,000
                         </span>
                       </div>
                     </div>
@@ -419,6 +424,27 @@ export default function LandingPage() {
                         <li>1 TB SSD</li>
                         <li>Windows 10</li>
                       </ul>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card className="max-w-3xl mx-auto bg-yellow-50 border-yellow-200 mt-4">
+                  <CardContent className="p-6">
+                    <div className="text-center">
+                      <h4 className="text-lg font-semibold text-yellow-800 mb-2">
+                        Demo Account
+                      </h4>
+                      <div className="flex flex-col items-center gap-2 text-yellow-900 text-base">
+                        <div>
+                          <span className="font-semibold">Username:</span> demo
+                        </div>
+                        <div>
+                          <span className="font-semibold">Password:</span>{" "}
+                          demo123
+                        </div>
+                      </div>
+                      <p className="text-xs text-yellow-700 mt-2">
+                        Use these credentials to try the live demo.
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
