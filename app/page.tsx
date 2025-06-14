@@ -54,7 +54,15 @@ export default function LandingPage() {
                 Contact
               </a>
             </nav>
-            <Button className="bg-blue-600 hover:bg-blue-700">View Demo</Button>
+            <Button asChild className="bg-blue-600 hover:bg-blue-700">
+              <a
+                href="https://lims.ajbregs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Demo
+              </a>
+            </Button>
           </div>
         </header>
 
