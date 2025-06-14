@@ -346,59 +346,60 @@ export default function LandingPage() {
                 <Card className="border-2 border-blue-500 relative hover:border-blue-600 transition-colors">
                   <CardHeader className="text-center">
                     <CardTitle className="text-2xl text-blue-600">
-                      Lab Trak Pro Plans
+                      LIMS Pricing Plan
                     </CardTitle>
-                    <CardDescription>Full features</CardDescription>
+                    <CardDescription>
+                      For most labs and clinics — includes setup, updates, and
+                      support
+                    </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-4">
-                      <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                        <span className="font-medium">Monthly</span>
-                        <span className="text-xl font-bold text-blue-600">
-                          ₱2,800
-                        </span>
-                      </div>
-                      <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                        <div>
-                          <span className="font-medium">3 Months</span>
-                          <Badge variant="secondary" className="ml-2">
-                            ~7% off
-                          </Badge>
-                        </div>
-                        <span className="text-xl font-bold text-blue-600">
-                          ₱7,800
-                        </span>
-                      </div>
-                      <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                        <div>
-                          <span className="font-medium">6 Months</span>
-                          <Badge variant="secondary" className="ml-2">
-                            ~8% off
-                          </Badge>
-                        </div>
-                        <span className="text-xl font-bold text-blue-600">
-                          ₱15,500
-                        </span>
-                      </div>
-
                       <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg border-2 border-blue-200">
-                        <div className="flex items-center">
-                          <span className="font-medium">2 Years</span>
-                          <Badge className="ml-2 bg-green-100 text-green-800">
-                            ~40% off
-                          </Badge>
-                          <Badge className="ml-2 bg-blue-600 text-white">
-                            Most Popular
-                          </Badge>
-                        </div>
+                        <span className="font-medium">Setup Fee</span>
                         <span className="text-xl font-bold text-blue-600">
-                          ₱40,000
+                          ₱10,000
                         </span>
+                      </div>
+                      <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                        <span className="font-medium">
+                          Monthly Subscription
+                        </span>
+                        <span className="text-xl font-bold text-blue-600">
+                          ₱1,000
+                        </span>
+                      </div>
+                      <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg border-2 border-green-200">
+                        <span className="font-medium">Set-up Fee + 1 year</span>
+                        <span className="text-xl font-bold text-green-800">
+                          ₱20,000
+                        </span>
+                        <Badge className="ml-2 bg-green-100 text-green-800">
+                          Save ₱2,000
+                        </Badge>
                       </div>
                     </div>
-                    {/* <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700">
-                    Start Professional
-                  </Button> */}
+                    <div className="mt-8 text-left text-sm text-gray-700">
+                      <h4 className="font-semibold text-blue-800 mb-2">
+                        With ₱10,000 Setup (One-time fee):
+                      </h4>
+                      <ul className="list-disc list-inside mb-4">
+                        <li>System installation (local)</li>
+                        <li>Initial database setup</li>
+                        <li>1-on-1 onboarding/training for staff</li>
+                        <li>Basic data import assistance</li>
+                        <li>Branding (clinic name/logo, if applicable)</li>
+                      </ul>
+                      <h4 className="font-semibold text-blue-800 mb-2">
+                        With ₱1,000/month Subscription:
+                      </h4>
+                      <ul className="list-disc list-inside">
+                        <li>Secure system access</li>
+                        <li>Automatic backups</li>
+                        <li>Email/chat support</li>
+                        <li>Regular updates and new features</li>
+                      </ul>
+                    </div>
                   </CardContent>
                 </Card>
                 <Card className="max-w-3xl mx-auto bg-green-50 border-green-200 mt-8">
