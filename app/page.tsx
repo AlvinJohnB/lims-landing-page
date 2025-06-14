@@ -56,7 +56,7 @@ export default function LandingPage() {
             </nav>
             <Button asChild className="bg-blue-600 hover:bg-blue-700">
               <a
-                href="https://lims.ajbregs.com/"
+                href="https://mern-stack-lis.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
