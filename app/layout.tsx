@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Lab Trak Pro - Modern LIMS Software",
   description:
     "Modern LIMS software for local diagnostic labs. Manage test records, track orders, and streamline your lab with a fast, secure system.",
   openGraph: {
     title: "Lab Trak Pro - Modern LIMS Software",
     description: "Modern LIMS software for local diagnostic labs.",
-    url: "https://your-site-url.com",
+    url: "https://mern-stack-lis.vercel.app/",
     siteName: "Lab Trak Pro",
     // images: [
     //   {
@@ -31,7 +32,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
