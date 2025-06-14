@@ -388,7 +388,7 @@ export default function LandingPage() {
                         <li>Initial database setup</li>
                         <li>1-on-1 onboarding/training for staff</li>
                         <li>Basic data import assistance</li>
-                        <li>Branding (clinic name/logo, if applicable)</li>
+                        <li>Branding (clinic name/logo)</li>
                       </ul>
                       <h4 className="font-semibold text-blue-800 mb-2">
                         With ₱1,000/month Subscription:
