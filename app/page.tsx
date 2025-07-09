@@ -343,7 +343,7 @@ export default function LandingPage() {
 
             <div className="flex justify-center">
               <div className="w-full max-w-md">
-                <Card className="border-2 border-blue-500 relative hover:border-blue-600 transition-colors">
+                {/* <Card className="border-2 border-blue-500 relative hover:border-blue-600 transition-colors">
                   <CardHeader className="text-center">
                     <CardTitle className="text-2xl text-blue-600">
                       LIMS Pricing Plan
@@ -401,7 +401,7 @@ export default function LandingPage() {
                       </ul>
                     </div>
                   </CardContent>
-                </Card>
+                </Card> */}
                 <Card className="max-w-3xl mx-auto bg-green-50 border-green-200 mt-8">
                   <CardContent className="p-6">
                     <div className="text-center">
